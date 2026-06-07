@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/anthropic/:path*",
+      "destination": "https://api.anthropic.com/:path*"
+    },
+    {
+      "source": "/api/gemini/:path*",
+      "destination": "https://generativelanguage.googleapis.com/:path*"
+    }
+  ]
+}
